@@ -18,6 +18,9 @@ Machine learning algorithms detect patterns in financial transactions and determ
 
 In this work we have used publicly available simulated payment transaction data and implemented various supervised machine learning algorithms to the problem of fraud detection.  We aim to highlight how supervised machine learning techniques may be utilised to accurately classify data with substantial class imbalance.
 
+## Demo
+<a href="https://fraudulent-transaction.herokuapp.com/" target="_blank">Click here</a> to try out our model!
+
 ## Data Description
 - The dataset has over 6 million transactions and 11 variables
 - There is a variable named ‘isFraud’ that indicates actual fraud status of the transaction, this is the class variable for our analysis
