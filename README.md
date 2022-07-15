@@ -52,7 +52,7 @@ The columns in the dataset are described as follows:
 
  <img src="Images/bar_isfraud_by_type.jpeg" width="420" height="250">
   
-- Fraudulant transactions oocured only by transactions via `Cash Out` and `Transfer`
+- Fraudulant transactions occured only by transactions via `Cash Out` and `Transfer`
 
  <img src="Images/pie_chart_count_of_type_by_type.jpeg" width="420" height="250">
   
@@ -70,6 +70,10 @@ The columns in the dataset are described as follows:
     - Naive Bayes
     - Logistic Regression
 
+## Deployment
+- After training our model, we created a **Flask app** and a **front-end**
+- The model was then hosted on localhost via an API
+- After successful testing of the web app, we then used **Docker** to dockerize the application which was then **hosted on Heroku**
 
 ## Data Visualization
 
